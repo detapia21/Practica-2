@@ -1,0 +1,47 @@
+body{
+    background-image: url(Stage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-top: 2rem; 
+}
+
+
+.flex-container2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.flex-item{
+    text-align: center;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+#Health1{
+    color: white;
+}
+
+#Health2{
+    color: white;
+}
+
+#GameOver{
+    color: white;
+    opacity: 0;
+}

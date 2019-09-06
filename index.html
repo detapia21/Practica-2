@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Jueguillo</title>
+</head>
+<body>
+
+    <div class="flex-container2" id="GameOver">
+        <h1>Game Over</h1>                
+    </div>
+    <div class="flex-container">
+        <div id="john" class="flex-item"></div>
+    
+        <div id="master" class="flex-item"></div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <button id="Attack1" class="button" onclick="john.atacar(master)">Attack</button>
+        </div>
+    
+        <div class="flex-item">
+            <button id="Attack2"  class="button" onclick="master.atacar(john)">Attack</button></div>
+    </div>
+    <div class="flex-container2">
+        <div id="Health1" class="flex-item">
+            Health
+        </div>
+    
+        <div id="Health2" class="flex-item">
+            Health
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
